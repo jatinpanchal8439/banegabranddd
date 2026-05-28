@@ -75,7 +75,7 @@ export default function Landing() {
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <Sparkles className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-bold text-lg">Ojasvin CRM</span>
+            <span className="font-bold text-lg">Banega Brand CRM</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
             <a href="#features" className="hover:text-foreground transition">Features</a>
@@ -94,7 +94,7 @@ export default function Landing() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10" />
         <div className="container mx-auto px-4 py-20 md:py-28 relative">
           <div className="max-w-3xl mx-auto text-center">
-            <Badge className="mb-4" variant="secondary">Built for Ojasvin Group Pvt Ltd</Badge>
+            <Badge className="mb-4" variant="secondary">Built for Banega Brand Pvt Ltd</Badge>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               The complete <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Sales & HR CRM</span> for modern teams
             </h1>
@@ -180,7 +180,7 @@ export default function Landing() {
         <Card className="bg-gradient-to-br from-primary to-accent border-0 text-primary-foreground">
           <CardContent className="p-10 md:p-16 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to transform your business?</h2>
-            <p className="opacity-90 mb-6 max-w-xl mx-auto">Join Ojasvin Group teams already managing sales, HR and operations on one platform.</p>
+            <p className="opacity-90 mb-6 max-w-xl mx-auto">Join Banega Brand teams already managing sales, HR and operations on one platform.</p>
             <Link to="/auth"><Button size="lg" variant="secondary" className="gap-2">Get Started Free <ArrowRight className="w-4 h-4" /></Button></Link>
           </CardContent>
         </Card>
@@ -189,7 +189,7 @@ export default function Landing() {
       {/* Footer */}
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <div>© {new Date().getFullYear()} Ojasvin Group Pvt Ltd. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Banega Brand Pvt Ltd. All rights reserved.</div>
           <div className="flex gap-6">
             <a href="#features" className="hover:text-foreground">Features</a>
             <a href="#pricing" className="hover:text-foreground">Pricing</a>
